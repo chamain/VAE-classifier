@@ -23,7 +23,7 @@ class ResNet(object):
         self.dataset_name = args.dataset
         self.__log = open('logHeatn6beta4.txt','w')
         if self.dataset_name == 'imgnetwoof' :
-            self.dataDir = '/home/lchamain/chamain/imagenet/imagenet/data/tfrecordsimwoof/train/'
+            self.dataDir = '/home/lchamain/chamain/imagenet/imagenet/data/tfrecordsimwoof/train/' ## change this to point tfrecords location
             self.nTrImgs = 9025
             self.nTsImgs = 3929
             self.test_x, self.test_y = None,None
@@ -70,7 +70,7 @@ class ResNet(object):
         self.epoch = args.epoch
         #self.batch_size = args.batch_size
         #self.iteration = self.nTrImgs // self.batch_size
-        self.iteration = 1
+        self.iteration = 1 ########################################### for testing consider one batch at a time
         self.tsiteration = self.nTsImgs // self.batch_size
 
         self.init_lr = args.lr
@@ -343,7 +343,7 @@ class ResNet(object):
             # non-zero value is only for the first epoch after loading pre-trained model
             start_batch_id = 0
             #if epoch == 10:
-            self.testbt(batch1)
+            self.testbt(batch1) ###################### I send the same batch for testing to show that test and train accuracies are different.
             
 
             # save model
