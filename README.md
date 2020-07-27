@@ -6,7 +6,7 @@ python project files for the [paper](https://www.researchgate.net/profile/Lahiru
 3. We use the following simple trainable layer for QuanNet.
 ![alt text][logo]
 
-[logo]: https://github.com/chamain/QuanNet/blob/master/images/quanblock.PNG "Quan block"
+[logo]:  https://github.com/chamain/AE-classifier/blob/master/imgs/EncClassRec.png "Joint compression-classification with reconstruction"
 
 ## Installation
 Download the python scripts from the repository.
