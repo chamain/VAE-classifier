@@ -5,17 +5,17 @@ python project files for the [paper](https://www.researchgate.net/profile/Lahiru
 1. This project uses CIFAR-10 dataset and we provide the python code for the end to end training of QuanNet in **keras**.
 2. We use **ResNet-20** as the classification network
 3. We use the following simple trainable layer for QuanNet.
-![alt text][logo]
+![alt text][logo-1]
 
-[logo]:  https://github.com/chamain/AE-classifier/blob/master/imgs/EncClass.png "Joint compression-classification"
+[logo-1]:  https://github.com/chamain/AE-classifier/blob/master/imgs/EncClass.png "Joint compression-classification"
 
 ## Joint classification and compression with reconstruction 
 1. This project uses CIFAR-10 dataset and we provide the python code for the end to end training of QuanNet in **keras**.
 2. We use **ResNet-20** as the classification network
 3. We use the following simple trainable layer for QuanNet.
-![alt text][logo]
+![alt text][logo-2]
 
-[logo]:  https://github.com/chamain/AE-classifier/blob/master/imgs/EncClassRec.png "Joint compression-classification with reconstruction"
+[logo-2]:  https://github.com/chamain/AE-classifier/blob/master/imgs/EncClassRec.png "Joint compression-classification with reconstruction"
 
 ## Installation
 Download the python scripts from the repository.
