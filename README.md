@@ -10,7 +10,7 @@ To overcome the infrastructural barrier of limited network bandwidth in cloud ML
 </p>
 
 Overview of the proposed VAE classifier during inference:
-Quantized latent vector $\mathbf{\hat z}$ is encoded into bit stream by a context-adaptive arithmetic encoder (AE) assisted by probability estimator (PE). At receiver, probability of each symbol $\hat{z}_{i}$ (shown in cyan) is estimated by using a learned PE based on previously decoded latents $\hat{z}_{i-1},\cdots,\hat{z}_{1}$ (shown in gray). Without groundtruth distribution of the latent elements $q_{\boldsymbol{\phi}}(\mathbf{\hat z}|\boldsymbol{x})$ at the receiver, PE learns to approximate $p_{\boldsymbol{\theta}} \approx q_{\boldsymbol{\phi}}$ during training.
+Quantized latent vector $\mathbf{\hat z}$ is encoded into bit stream by a context-adaptive arithmetic encoder (AE) assisted by probability estimator (PE). At receiver, probability of each symbol (shown in cyan) is estimated by using a learned PE based on previously decoded latents (shown in gray). Without groundtruth distribution of the latent elements $q_{\boldsymbol{\phi}}(\mathbf{\hat z}|\boldsymbol{x})$ at the receiver, PE learns to approximate $p_{\boldsymbol{\theta}} \approx q_{\boldsymbol{\phi}}$ during training.
 
 ## Results
 
