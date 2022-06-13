@@ -19,7 +19,7 @@ develop an end-to-end networked
 learning framework by jointly optimizing 
 the codec and classifier without 
 reconstructing images for given data rate (bandwidth). Compared with standard JPEG codec, the proposed VAE joint compression and classification framework achieves classification accuracy improvement by over 10\% and 4\%, respectively, for CIFAR-10 and ImageNet-1k data sets
-at data rate of 0.8 bpp. \Revbthree{Our proposed VAE-based models show 65\%$-$99\% reductions in encoder size, $\times$1.5$-$$\times$13.1 improvements in inference speed and 25\%$-$99\% savings in power compared to baseline models.} We further show that a simple decoder can reconstruct images
+at data rate of 0.8 bpp. \Revbthree{Our proposed VAE-based models show 65\%$-$99\% reductions in encoder size, x1.5-x13.1 improvements in inference speed and 25\%$-$99\% savings in power compared to baseline models.} We further show that a simple decoder can reconstruct images
 with 
 sufficient quality without compromising classification accuracy
 
