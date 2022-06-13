@@ -30,7 +30,21 @@ Overview of the proposed VAE classifier during inference:
 Quantized latent vector $\mathbf{\hat z}$ is encoded into bit stream by a context-adaptive arithmetic encoder (AE) assisted by probability estimator (PE). At receiver, probability of each symbol (shown in cyan) is estimated by using a learned PE based on previously decoded latents (shown in gray). Without groundtruth distribution of the latent elements $q_{\boldsymbol{\phi}}(\mathbf{\hat z}|\boldsymbol{x})$ at the receiver, PE learns to approximate $p_{\boldsymbol{\theta}} \approx q_{\boldsymbol{\phi}}$ during training.
 
 ## Results
+<p align="left">
+  <img src="https://github.com/chamain/VAE-classifier/blob/master/imgs/vae_results.png" width="700" title="plane">
+</p>
 
+Classification accuracy vs rate results for end-to-end compression and classification on (a) CIFAR-10 and (b) CIFAR-100 data sets. The proposed VAE
+based compression and classification framework outperforms popular commercial image compression codecs in terms of rate-accuracy, at lower bandwidths.
+
+<p align="left">
+  <img src="https://github.com/chamain/VAE-classifier/blob/master/imgs/imagenet_low.png" width="700" title="plane">
+</p>
+
+Classification accuracy vs rate on ImageNet-1k for end-to-end
+compression and classification. The proposed VAE based compression and
+classification framework (AE-V4) significantly outperforms JPEG commercial
+image compression codecs in terms of rate-accuracy.
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
