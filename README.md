@@ -38,7 +38,7 @@ Classification accuracy vs rate results for end-to-end compression and classific
 based compression and classification framework outperforms popular commercial image compression codecs in terms of rate-accuracy, at lower bandwidths.
 
 <p align="left">
-  <img src="https://github.com/chamain/VAE-classifier/blob/master/imgs/imagenet_low.png" width="700" title="plane">
+  <img src="https://github.com/chamain/VAE-classifier/blob/master/imgs/imagenet_low.png" width="500" title="plane">
 </p>
 
 Classification accuracy vs rate on ImageNet-1k for end-to-end
