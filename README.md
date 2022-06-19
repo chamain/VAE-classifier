@@ -48,4 +48,11 @@ image compression codecs in terms of rate-accuracy.
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
+@article{chamain2022end,
+  title={End-to-End Image Classification and Compression with variational autoencoders},
+  author={Chamain, Lahiru D and Qi, Siyu and Ding, Zhi},
+  journal={IEEE Internet of Things Journal},
+  year={2022},
+  publisher={IEEE}
+}
 ```
